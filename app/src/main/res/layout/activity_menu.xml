@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.almi.dam2.powergym.MenuActivity"
+    android:background="@mipmap/loginback"
+    android:layout_gravity="center"
+    >
+
+    <EditText
+        android:background="@drawable/edittextstyle"
+        android:id="@+id/editusuario"
+        android:layout_width="217dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="290dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="240dp"
+        android:hint="DNI"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/edirpasswd"
+        android:layout_width="217dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="204dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="200dp"
+        android:hint="Contraseña"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editusuario"
+        app:layout_constraintVertical_bias="0.67"
+        android:background="@drawable/edittextstyle"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="91dp"
+        app:layout_constraintBottom_toTopOf="@+id/editusuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/logo" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
